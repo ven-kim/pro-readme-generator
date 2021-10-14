@@ -1,60 +1,21 @@
-const fetch = require('node-fetch');
+const fs = require('fs');
 
-function generateMarkdown(data) {
-
-  let markdownRender = `
-  # ${data.title}
-
-  ![License Badge](https://img.shields.io/static/v1?label=License&message=${data.license.split(' ').join('-')}&color=success)
-
-  ## Description
-
-  ${data.description}
-
-  ## Table of Content
-
-  - [Installation](#installation)
-  - [Usage Information](#usage-information)
-  - [License Information](#license-information)
-  - [Contribution Guidelines](#contribution-guidelines)
-  - [Test Instructions](#test-instructions)
-  - [Questions](#questions)
-
-  ## Installation
-  To install the neccesary dependencies for this project, run the following command(s):
-
-  \`\`\`
-  ${data.install}
-  \`\`\`
-
-  ## Usage Information
-
-  ${data.usage}
-
-  ## License Information
-
-  This application is licensed under ${data.license}.
-
-  ## Contribution Guidelines
-
-  ${data.contribution}
-
-  ## Test Instructions
-
-  ${data.test}
-
-  ## Questions
-
-  Please contact me via GitHub or email with any questions, comments, or concerns regarding this project.
-
-  GitHub: [${data.username}](https://github.com/${data.username})
-
-  Email: [${data.email}](mailto:${data.email})
-
-  `;
-  return markdownRender;
-}
-
-module.exports = {
-  generateMarkdown
+const writeFile = fileContent => {
+  return new Promise((resolve, reject) => {
+    fs.writeFile('./dist/userreadme.md', fileContent, err => {
+      // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
+      if (err) {
+        reject(err);
+        // return out of the function here to make sure the Promise doesn't accidentally execute the resolve() function as well
+        return;
+      }
+      // if everything went well, resolve the Promise and send the successful data to the `.then()` method
+      resolve({
+        ok: true,
+        message: 'File created!'
+      });
+    });
+  });
 };
+
+module.exports =  {writeFile} ;
