@@ -11,11 +11,11 @@ const promptUser = () => {
 };
 const promptReadMe = (readMeData) => {
   console.log(`
-===========================
-Add the bulk of your readme
-===========================
+===============================
+Add the Contents of your README
+===============================
 `);
-  // If there's no 'projects' array property, create one
+  // Creates a 'projects' array property if there isn't one
   if (!readMeData.projects) {
     readMeData.projects = [];
   }
@@ -94,7 +94,7 @@ Add the bulk of your readme
     {
       type: "input",
       name: "questionsPartOne",
-      message: "What is your github username? (Required)",
+      message: "What is your GitHub username? (Required)",
       validate: (descriptionInput) => {
         if (descriptionInput) {
           return true;
@@ -107,7 +107,7 @@ Add the bulk of your readme
     {
       type: "input",
       name: "questionsPartTwo",
-      message: "What is a good email for people to send you their questions? (Required)",
+      message: "What email can people use to send you their questions? (Required)",
       validate: (descriptionInput) => {
         if (descriptionInput) {
           return true;
