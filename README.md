@@ -22,7 +22,7 @@ npm i inquirer
 # Usage
 
 [Walkthrough Video](https://watch.screencastify.com/v/aYtBRQzaul43JdKQqzbH)
-<iframe src="https://drive.google.com/file/d/1evHb7o-H7U9htqcQAbkFO9mzh7cLo0Bj/preview" width="640" height="480"></iframe>
+![proreadmegenss](https://user-images.githubusercontent.com/85568921/137815959-407944b4-424e-416d-8335-22f9ba82e2f3.png)
 <br>
 <br>
 
