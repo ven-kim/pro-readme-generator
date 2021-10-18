@@ -1,12 +1,12 @@
 
-# Professional ReadMe
+# Professional README
 
       
 ![GitHub license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&style=for-the-badge)
 
 # Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate velit sit amet lobortis varius. Mauris ultrices sem eget ligula tincidunt sollicitudin.
 
 # Table of Contents 
 
@@ -19,11 +19,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 
 # Installation 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate velit sit amet lobortis varius. Mauris ultrices sem eget ligula tincidunt sollicitudin.
 
 # Usage
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate velit sit amet lobortis varius. Mauris ultrices sem eget ligula tincidunt sollicitudin.
 
 # License
 
@@ -31,18 +31,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 
 # Contributing
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate velit sit amet lobortis varius. Mauris ultrices sem eget ligula tincidunt sollicitudin.
 
 # Tests
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate velit sit amet lobortis varius. Mauris ultrices sem eget ligula tincidunt sollicitudin.
 
 # Questions
 Please contact me through the following methods!
 
 > [My Github account](https://github.com/ven-kim)
 
-> <a href="mailto:venvex@gmail.com">My Email</a> 
+> <a href="mailto:ven@gmail.com">My Email</a> 
 
 
   

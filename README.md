@@ -1,11 +1,8 @@
-# Professional ReadMe
-
-      
-![GitHub license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&style=for-the-badge)
+# Professional ReadMe Generator
 
 # Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+This application was created in mind that as a user who is a developer, can use this README generator to quickly create a professional README for a new project. By using node and inquirer, I used the [Guide to a Professional README](https://github.com/coding-boot-camp/potential-enigma/blob/main/readme-guide.md) as a reference so that the user can ensure that their README will match all the criterias necessary for introducing their project.
 
 # Table of Contents 
 
