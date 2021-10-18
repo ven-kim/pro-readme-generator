@@ -42,7 +42,7 @@ Please contact me through the following methods!
 
 > [My Github account](https://github.com/ven-kim)
 
-> <a href="mailto:ven@gmail.com">My Email</a> 
+> <a href="mailto:venvex@gmail.com">My Email</a> 
 
 
   

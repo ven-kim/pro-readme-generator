@@ -21,7 +21,10 @@ npm i inquirer
 
 # Usage
 
-> Walkthrough Video
+[Walkthrough Video](https://watch.screencastify.com/v/aYtBRQzaul43JdKQqzbH)
+<iframe src="https://drive.google.com/file/d/1evHb7o-H7U9htqcQAbkFO9mzh7cLo0Bj/preview" width="640" height="480"></iframe>
+<br>
+<br>
 
 # Contributing
 
